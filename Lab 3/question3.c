@@ -30,10 +30,10 @@ float quizGrade(float q1, float q2, float q3, float q4, float q5, float q6, floa
 }
 
 int main(void) {
-    float midterm = 73;
-    float final = 84;
+    float midterm = 80;
+    float final = 70;
 
-    float quiz_avg = quizGrade(9.5, 6, 4, 10, 7.8, 3.4, 9, 5.6, 9, 10); //sets the function to a variable
+    float quiz_avg = quizGrade(8.5, 8.5, 9, 8.5, 7.5, 7, 9, 9.5, 10, 10); //sets the function to a variable
 
     /* TO CALCULATE MIDTERM/FINAL WEIGHT */
     float midterm_weight, final_weight;
